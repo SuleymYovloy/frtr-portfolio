@@ -2,8 +2,49 @@
 
 .header{
   font-family: 'Fira Code';
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    padding: 20px 21px;
+  }
+
+  &__logo-link {
+    font-size: 30px;
+    line-height: 25px;
+    color: #64FFDA;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    padding: 28px 40px 28px 0;
+    ul {
+      display: flex;
+      li {
+        font-size: 13px;
+        line-height: 25px;
+        align-items: center;
+        padding-right: 48px;
+      }
+      li:last-child {
+        padding: 0;
+      }
+    }
+  }
+
+  &__item-num {
+    color: #64FFDA;
+  }
+  &__item-text {
+    color: #fff;
+  }
 }
 
+
+
 span {
-  color: #fff;
+  color: #64FFDA;
 }
+

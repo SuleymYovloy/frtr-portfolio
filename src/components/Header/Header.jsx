@@ -7,21 +7,24 @@ const Header = () => {
   return (
     <div className="header">
       <div className="container">
-        <div className="header__logo">
-          <a href="/#">./frtr</a>
-        </div>
-        <div className="header__nav">
-          <ul>
-            {nav.map((value, i) => (
-              <li>
-                <a href="/#">
-                  <span>0{i + 1}. </span>
-                  <span>{value}</span>
-                </a>
-                {/* 0{i + 1}. {value} */}
-              </li>
-            ))}
-          </ul>
+        <div className="header__content">
+          <div className="header__logo">
+            <a href="/#" className="header__logo-link">
+              ./frtr
+            </a>
+          </div>
+          <div className="header__nav">
+            <ul>
+              {nav.map((value, i) => (
+                <li>
+                  <a href="/#">
+                    <span className="header__item-num">0{i + 1}. </span>
+                    <span className="header__item-text">{value}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
