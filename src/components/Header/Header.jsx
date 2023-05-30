@@ -1,4 +1,5 @@
 import React from 'react';
+import originIng from '../../img/origin.png';
 
 const Header = () => {
   // const [activeLi, setActiveLi] = React.useState(0);
@@ -25,6 +26,12 @@ const Header = () => {
               ))}
             </ul>
           </div>
+          <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B3%D1%83%D1%88%D0%B5%D1%82%D0%B8%D1%8F">
+            <div className="header__origin">
+              <img src={originIng} alt="" />
+              <span>ING</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
