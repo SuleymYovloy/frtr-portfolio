@@ -2,10 +2,20 @@
 @import './libs/normalize';
 @import './components/all';
 
+body {
+  background-color: $background;
+}
+
 .wrapper {
   background-color: #0A192F;
 }
 
-body {
-  background-color: $background;
+.container {
+  width: $container;
+  margin: 0 auto;
+
+  &--header {
+    width: 95%;
+  }
 }
+
