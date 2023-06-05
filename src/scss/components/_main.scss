@@ -1,0 +1,65 @@
+@import '../variables';
+
+.main {
+  span {
+    font-size: 21px;
+    font-family: 'Fira Code' sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  &__title {
+    font-size: 66px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #8892C0;
+    width: 40%;
+    line-height: 83px;
+    margin: 22px 0 40px;
+
+    span {
+      font-size: 66px;
+      font-family: 'Oswald', sans-serif;
+      color: #CCD6F6;
+      font-weight: 500;
+    }
+  }
+
+  &__descr {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 80px;
+  }
+
+  &__button {
+    padding: 20px 19px;
+    background-color: transparent;
+    border: 1px solid #64FFDA;
+    border-radius: 5px;
+    color: #64FFDA;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    
+    
+    
+
+    span {
+      font-size: 16px;
+    }
+
+    &:hover {
+      background-color: #64FFDA;
+      transition: background-color 0.4s ease;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+      span {
+        color: #0A192F;
+        
+      }
+    }
+  }
+}

@@ -3,9 +3,10 @@ import React from 'react';
 const Main = () => {
   return (
     <div className="main">
-      <span>Привет! Меня зовут:</span>
+      <span>Привет! Меня зовут</span>
       <h1 className="main__title">
-        <span>Евлоев Сулейм.</span>Я Middle Frotend-разработчик.
+        <span>Евлоев Сулейм.</span>
+        <br />Я Middle Frotend & ReactJS разработчик.
       </h1>
       <p className="main__descr">
         Frontend-разработчик с реальным опытом коммерческой разработки сайтов и веб-приложений.
@@ -18,6 +19,9 @@ const Main = () => {
         Webpack. <br />
         Также в своей работе использую многие другие инструменты и технологии.
       </p>
+      <a href="/#" className="main__button">
+        <span>Загрузить мое резюме</span>
+      </a>
     </div>
   );
 };
