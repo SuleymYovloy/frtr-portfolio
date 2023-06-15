@@ -1,0 +1,52 @@
+@import '../variables';
+
+.about {
+  &__title-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    span {
+      color: #64FFDA;
+      font-family: 'Fira Code', sans-serif;
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 32px;
+      color: #fff;
+      font-weight: 400;
+      margin-right: 20px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+  &__descr {
+    max-width: 50%;
+
+    p {
+      font-size: 20px;
+      font-family: 'Fira Code', sans-serif;
+      font-weight: 400;
+      line-height: 26px;
+    }
+  }
+
+  &__img {
+    max-width: 360px;
+  }
+}
+

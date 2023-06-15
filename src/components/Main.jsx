@@ -19,8 +19,14 @@ const Main = () => {
         Webpack. <br />
         Также в своей работе использую многие другие инструменты и технологии.
       </p>
-      <a href="/#" className="main__button">
-        <span>Загрузить мое резюме</span>
+      <a
+        href="https://drive.google.com/file/d/1XqmIPmzPa6ExlW5xC3lh4TkbHuOD8CKV/view?usp=drive_link"
+        download
+        className="main__button"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span>Загрузить мое резюме !</span>
       </a>
     </div>
   );
